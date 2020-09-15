@@ -1,0 +1,382 @@
+.main-container {
+  width: 90%;
+  margin: auto;
+}
+
+.main-container span {
+  color: #a9508b;
+}
+
+.main-container .header {
+  width: 90%;
+}
+
+.main-container .header .headerup {
+  position: static;
+  height: 80px;
+  width: 111.1%;
+  background-color: #35424a;
+  color: white;
+  display: inline-block;
+  border-bottom: 2px solid #a9508b;
+}
+
+.main-container .header .headerup .headerupleft {
+  padding: 25px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  float: left;
+}
+
+.main-container .header .headerup .headerupright {
+  float: right;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container .header .headerup a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.main-container .header .header-middle {
+  margin: auto;
+  position: relative;
+  width: 111.1%;
+  top: -4px;
+  height: 430px;
+}
+
+.main-container .header .header-middle img {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.main-container .header .header-middle .hmtop {
+  position: relative;
+  top: -350px;
+  text-align: center;
+  color: white;
+  z-index: 999;
+}
+
+.main-container .header .header-middle .hmtop #hmt1 {
+  padding: 30px;
+  font-size: 32px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container .header .header-middle .hmtop #hmt2 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container .header .header-bottom {
+  position: relative;
+  top: -4px;
+  height: 80px;
+  width: 111.10%;
+  background-color: #35424a;
+  color: white;
+  display: inline-block;
+}
+
+.main-container .header .header-bottom .headerbottomleft {
+  padding: 25px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  float: left;
+}
+
+.main-container .header .header-bottom .headerbottomright {
+  float: right;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container .header .header-bottom .headerbottomright #emaillabel {
+  background-color: red;
+  color: white;
+  padding: 8px;
+}
+
+.main-container .header .header-bottom .headerbottomright #email {
+  width: 200px;
+  height: 30px;
+}
+
+.main-container .main {
+  position: relative;
+  top: 40px;
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-container .main .main-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-container .main .main-boxes img {
+  width: 80px;
+  height: 80px;
+}
+
+.main-container .main .main-boxes #box1 {
+  padding: 10px;
+  font-size: large;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container .main .main-boxes #box2 {
+  padding: 10px;
+  font-size: small;
+  width: 400px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container .footer {
+  position: fixed;
+  width: 90%;
+  height: 80px;
+  bottom: 10px;
+  background-color: #35424a;
+  color: white;
+  vertical-align: center;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container .footer img {
+  width: 25px;
+  position: relative;
+  top: 18px;
+  left: 700px;
+}
+
+.main-container .footer .copyright {
+  position: relative;
+  top: 15px;
+  text-align: center;
+}
+
+.main-container .footer .a {
+  position: relative;
+  display: inline-block;
+  top: 5px;
+  left: 700px;
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+}
+
+.main-container .footer .b {
+  position: relative;
+  display: inline-block;
+  top: 15px;
+  left: 600px;
+  font-size: 8px;
+  color: black;
+  font-weight: bolder;
+}
+
+.main-container .secondpage {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main-container .secondpage .part1 {
+  position: relative;
+  width: 60%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+.main-container .secondpage .part1 #hmt3 {
+  padding: 30px;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container .secondpage .part1 #page2part1 {
+  padding: 0 30px 20px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container .secondpage .part1 #page2part2 {
+  color: white;
+  width: 85%;
+  margin-left: 30px;
+  padding: 10px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #35424a;
+}
+
+.main-container .secondpage .part2 {
+  position: relative;
+  top: 20px;
+  width: 40%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.main-container .secondpage .part2 #hmt3 {
+  padding: 30px;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container .secondpage .part2 #page2part2 {
+  width: 95%;
+  height: 150px;
+  padding: 30px 30px 10px 10px;
+  font-size: 18px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #35424a;
+}
+
+.thirthpage {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.thirthpage .page3 {
+  position: relative;
+  margin-left: 30px;
+  width: 60%;
+  height: 300px;
+}
+
+.thirthpage .page3 #hmt3 {
+  padding: 10px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.thirthpage .page3 .page3part1 {
+  margin-top: 15px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  font-family: Arial, Helvetica,sans-serif;
+  background-color: #e6e6e6;
+}
+
+.thirthpage .page3 #span1 {
+  color: black !important;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page3_2 {
+  width: 30%;
+  height: 320px;
+  margin: 20px 20px 0 0;
+  padding: 20px;
+  background-color: #35424a;
+  color: white;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page3_2 #last {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page3_2 #Name {
+  width: 90%;
+  height: 40px;
+}
+
+.page3_2 #email2 {
+  width: 90%;
+  height: 40px;
+}
+
+.page3_2 #send {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  width: 70px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+}
+/*# sourceMappingURL=index.css.map */

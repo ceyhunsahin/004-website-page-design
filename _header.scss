@@ -1,0 +1,324 @@
+.main-container {
+    width: 90%;
+    margin: auto;
+    span {
+        color:#a9508b;
+    }  
+    .header {
+        width: 90%;
+        
+        .headerup {
+            position: static;
+            height: 80px;
+            width: 111.1%;
+            background-color:#35424a;
+            color: white;
+            display: inline-block;
+            border-bottom: 2px solid #a9508b;
+            .headerupleft{
+                padding: 25px;
+                font-size: 24px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                float: left;}
+        
+            
+            .headerupright {
+                float: right;
+                padding: 30px;
+                font-family: Arial, Helvetica, sans-serif;}
+        }
+        .headerup a {
+                margin-right: 20px;
+                text-decoration: none;
+                color: white;
+            }
+
+        .header-middle {
+            margin: auto;
+            position: relative;
+            width: 111.1%;;
+            top: -4px;
+            height: 430px;
+            
+            
+            img {
+                width: 100%;
+                height: 500px;
+                position: relative;
+                background-attachment: fixed;
+            }
+            .hmtop {
+                position: relative;
+                top: -350px;
+                text-align: center;
+                color: white;
+                z-index: 999;
+                #hmt1 {
+                    padding: 30px;
+                    font-size: 32px;
+                    font-weight: bolder;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                #hmt2 {
+                    font-size: 18px;
+                
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+  
+                }
+
+        }
+    
+     
+    
+        .header-bottom {
+            position: relative;
+            top: -4px;
+            height: 80px;
+            width: 111.10%;
+            background-color:#35424a;
+            color: white;
+            display: inline-block;
+            .headerbottomleft{
+                padding: 25px;
+                font-size: 24px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                float: left;}
+
+            .headerbottomright {
+                float: right;
+                padding: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+            #emaillabel {
+                background-color: red;
+                color: white;
+                padding: 8px;}
+            #email {
+                width: 200px;
+                height: 30px;
+            }
+            
+            }
+        }
+    }
+
+    .main {
+        position: relative;
+        top: 40px;
+        width:100%;
+        height: 300px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+        .main-boxes {
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            
+            img {
+                width: 80px;
+                height: 80px;
+            }
+            #box1 {
+                padding: 10px;
+                font-size: large;
+                font-weight: bolder;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #box2 {
+                padding: 10px;
+                font-size: small;
+                width: 400px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }    
+    }
+    .footer {
+        position: fixed;
+        width:90%;
+        height: 80px;
+        bottom: 10px;
+        background-color: #35424a;
+        color: white;
+        vertical-align: center;
+        font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+        img {
+            width: 25px;
+            position: relative;
+            top: 18px;
+            left: 700px;
+        }
+        .copyright {
+            position: relative;
+            top: 15px;
+            text-align: center;
+
+        }
+        .a {
+            position: relative;
+            display: inline-block;
+            top: 5px;
+            left: 700px;
+            font-size: 15px;
+            color: black;
+            font-weight: bolder;
+            
+        }
+        .b {
+                position: relative;
+                display: inline-block;
+                top: 15px;
+                left: 600px;
+                font-size: 8px;
+                color: black;
+                font-weight: bolder;
+                
+        
+        }
+    }
+
+    .secondpage{
+        position: relative;
+        width:100%;
+        height: 300px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+
+        .part1{
+            position: relative;
+            
+            width:60%;
+            height: 600px;
+            display: flex;
+            flex-flow: column wrap;
+            
+            #hmt3 {
+                padding: 30px;
+                font-size: 18px;
+                font-weight: bolder;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #page2part1 {
+                
+                    padding: 0 30px 20px;
+                    font-size: 18px;
+                    font-family: Arial, Helvetica, sans-serif;
+            }
+            #page2part2 {
+                color: white;
+                width: 85%;
+                margin-left: 30px;
+                padding: 10px;
+                font-size: 18px;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color:#35424a;
+        }
+
+        }
+        .part2{
+            position: relative;
+            top: 20px;
+            width:40%;
+            height: 200px;
+            display: flex;
+            flex-flow: row wrap;
+            
+
+            #hmt3 {
+                padding: 30px;
+                font-size: 18px;
+                font-weight: bolder;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #page2part2 {
+                width: 95%;
+                height: 150px;
+                padding: 30px 30px 10px 10px;
+                font-size: 18px;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color:#35424a;
+            }
+        }
+
+
+
+        }
+
+    }
+    .thirthpage{
+        position: relative;
+        width:100%;
+        height: 300px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+        .page3{
+            position: relative;
+            margin-left: 30px;
+            width:60%;
+            height: 300px;
+
+            #hmt3{
+                padding: 10px;
+                font-size: 24px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+            }
+            .page3part1 {
+                margin-top: 15px;
+                padding: 30px;
+                border: 1px solid #ccc;
+                font-size:20px;
+                font-family: Arial, Helvetica,sans-serif;
+                background-color: #e6e6e6;
+            }
+            #span1 {
+                color: black !important;
+                font-size:20px;
+                font-weight: bolder;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+           
+        }   
+   
+    }
+    .page3_2 {
+        width: 30%;
+        height: 320px;
+        margin: 20px 20px 0 0 ;
+        padding: 20px;
+        background-color: #35424a;
+        color: white;
+        font-size:16px;
+        font-family: Arial, Helvetica, sans-serif;
+        #last {
+            margin-bottom: 20px;
+            font-size:20px;
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #Name {
+           width: 90%;
+           height: 40px;
+        }
+        #email2{
+            width: 90%;
+            height: 40px;
+
+        }
+        #send {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            width: 70px;
+        }
+
+    }
